@@ -1,0 +1,100 @@
+/* App.css */
+
+/* Body styles for the background image */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('./assets/beautiful.webp'); /* Uppdatera sökvägen om det behövs */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Main app container styling */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(30, 30, 30, 0.8); /* Transparent dark background */
+  padding: 40px; /* Ökad padding för mer utrymme */
+  border-radius: 12px; /* Rundade hörn */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Mjukare skugga */
+}
+
+/* Heading styles */
+h1, h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Search input styling */
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ccc;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Button styling */
+button {
+  background-color: rgba(0, 123, 255, 0.8);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(0, 86, 179, 0.8); /* Rättad rad */
+}
+
+/* Movie poster styling */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Movie grid layout */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 20px; /* Space between items */
+}
+
+.movie-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.movie-item h3 {
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Movie list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
